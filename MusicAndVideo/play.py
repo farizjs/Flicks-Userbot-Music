@@ -130,7 +130,7 @@ async def play(client, m: Message):
 **#⃣ Lagu Di Antrian Ke {pos}
 🏷️ Judul: [{songname}]({link})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                 )
             else:
@@ -150,7 +150,7 @@ async def play(client, m: Message):
 **▶ Mulai Memutar Lagu
 🏷️ Judul: [{songname}]({link})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                 )
 
@@ -181,7 +181,7 @@ async def play(client, m: Message):
 **#⃣ Lagu Di Antrian Ke {pos}
 🏷️ Judul: [{songname}]({url})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                         )
                     else:
@@ -202,7 +202,7 @@ async def play(client, m: Message):
 **▶ Mulai Memutar Lagu
 🏷️ Judul: [{songname}]({url})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                             )
                         except Exception as ep:
@@ -247,7 +247,7 @@ async def vplay(client, m: Message):
 **#⃣ Video Di Antrian Ke {pos}
 🏷️ Judul: [{songname}]({link})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                 )
             else:
@@ -271,7 +271,7 @@ async def vplay(client, m: Message):
 **▶ Mulai Memutar Video
 🏷️ Judul: [{songname}]({link})
 💬 Chat ID: {chat_id}
-🎧 Atas permintaan: {m.from_user.mention}**
+🎵 Atas permintaan: {m.from_user.mention}**
 """,
                 )
 
@@ -308,7 +308,7 @@ async def vplay(client, m: Message):
 **#⃣ Video Di Antrian Ke {pos}
 🏷️ Judul: [{songname}]({url})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                         )
                     else:
@@ -327,7 +327,7 @@ async def vplay(client, m: Message):
 **▶ Mulai Memutar Video
 🏷️ Judul: [{songname}]({url})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                             )
                         except Exception as ep:
@@ -376,7 +376,7 @@ async def playfrom(client, m: Message):
 **▶ Mulai Memutar Lagu Dari {chat}
 🏷️ Judul: [{songname}]({link})
 💬 Chat ID: {chat_id}
-🎧 Atas Permintaan: {m.from_user.mention}**
+🎵 Atas Permintaan: {m.from_user.mention}**
 """,
                     )
             await hmm.delete()
@@ -395,11 +395,11 @@ async def playlist(client, m: Message):
         if len(chat_queue) == 1:
             await m.delete()
             await m.reply(
-                f"**🎧 SEKARANG MEMUTAR:** \n[{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][3]}`",
+                f"**🎵 SEKARANG MEMUTAR:** \n[{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][3]}`",
                 disable_web_page_preview=True,
             )
         else:
-            QUE = f"**🎧 SEKARANG MEMUTAR:** \n[{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][3]}` \n\n**⏯ DAFTAR ANTRIAN:**"
+            QUE = f"**🎵 SEKARANG MEMUTAR:** \n[{chat_queue[0][0]}]({chat_queue[0][2]}) | `{chat_queue[0][3]}` \n\n**⏯ DAFTAR ANTRIAN:**"
             l = len(chat_queue)
             for x in range(1, l):
                 hmm = chat_queue[x][0]
