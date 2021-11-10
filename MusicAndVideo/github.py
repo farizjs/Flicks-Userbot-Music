@@ -34,7 +34,7 @@ async def github(_, message):
                 caption = f"""**Info Of {name}**
 **Username:** `{username}`
 **Bio:** `{bio}`
-**Profile Link:** [Here]({url})
+**Link Profile:** [Here]({url})
 **Company:** `{company}`
 **Created On:** `{created_at}`
 **Repositories:** `{repositories}`
