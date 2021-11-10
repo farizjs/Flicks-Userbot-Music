@@ -1,5 +1,5 @@
 {
-    "name": "Music Dan Video Player UserBot",
+    "name": "Music And Video Player UserBot",
     "description": "Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.",
     "logo": "https://telegra.ph/file/65a17994a6deab0e70e67.jpg",
     "keywords": [
@@ -7,7 +7,7 @@
         "MusicPlayer",
         "VideoPlayer"
     ],
-    "repository": "https://github.com/ridho17-ind/Skyzo-Player",
+    "repository": "https://github.com/fjgaming212/Userbot-Music",
     "env": {
         "SESSION": {
             "description": "Pyrogram String Session",
@@ -19,8 +19,8 @@
         },
         "HNDLR": {
             "description": "ini akan digunakan sebagai prefix di semua perintah",
-            "required": false,
-            "value": "/"
+            "required": true,
+            "value": "."
         },
         "API_HASH": {
             "description": "Masukan API HASH Silahkan Ambil dari my.telegram.org/apps",
