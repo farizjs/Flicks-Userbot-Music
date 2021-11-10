@@ -9,7 +9,7 @@ from Python_ARQ import ARQ
 from config import HNDLR
 from MusicAndVideo.helpers.merrors import capture_err
 
-ARQ_API_KEY = "QFOTZM-GSZUFY-CHGHRX-TDEHOZ-ARQ"
+ARQ_API_KEY = "KYTPMA-MPFWHT-PREQWH-BYBVWG-ARQ"
 aiohttpsession = aiohttp.ClientSession()
 arq = ARQ("https://thearq.tech", ARQ_API_KEY, aiohttpsession)
 
@@ -70,7 +70,7 @@ async def quotly_func(client, message: Message):
             )
         else:
             if getArg(message) != "r":
-                return await m.edit("**SORRY**`")
+                return await m.edit("**MAAF**`")
             reply_message = await client.get_messages(
                 message.chat.id,
                 message.reply_to_message.message_id,
