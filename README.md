@@ -36,14 +36,17 @@
 ### 📚 Variabel Yang Dibutuhkan
 - `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 - `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
-- `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py) Pilih P jangan T
+- `SESSION` - Sesi String Pyrogram.Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py) Pilih P jangan T
 - `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
+- `HNDLR` - Handler untuk userbot mu
 
 
 ### KREDIT ✨
+- **[Fariz](https://github.com/fjgaming212)**
 - **[Skyzo](https://github.com/ridho17-ind)**
 - **[Flicks Support](https://t.me/FlicksSupport)**
 - **[Group Music Random](https://t.me/GroupMusicRandom)**
+- **[Gen Support](https://t.me/GenXProject_Info)**
 - **[Tomi](https://github.com/XtomiSN)**
 - **[Dan](https://github.com/delivrance) For [Pyrogram](https://github.com/pyrogram/pyrogram)**
 - **[Laky](https://github.com/Laky-64) For [PyTgCalls](https://github.com/pytgcalls/pytgcalls)**
