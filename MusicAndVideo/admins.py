@@ -20,7 +20,7 @@ async def skip(client, m: Message):
             await m.reply("Antrian Kosong, Meninggalkan Obrolan Suara**")
         else:
             await m.reply(
-                f"**⏭ Melewati pemutaran** \n**🎧 Sekarang memutar** - [{op[0]}]({op[1]}) | `{op[2]}`",
+                f"**⏭ Melewati pemutaran** \n**🎵 Sekarang memutar** - [{op[0]}]({op[1]}) | `{op[2]}`",
                 disable_web_page_preview=True,
             )
     else:
