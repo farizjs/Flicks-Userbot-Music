@@ -98,7 +98,7 @@ async def repo(client, m: Message):
 🔰 Telegram UserBot Untuk Memutar Lagu Dan Video Di Obrolan Suara Telegram.
 
 👩‍💻 Dipersembahkan Oleh 
-• [Flicks Support](https://t.me/FlicksSupport)
+• [Gen Support](https://t.me/GenXProject_support)
 • [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 • [Pyrogram](https://github.com/pyrogram/pyrogram)
 
@@ -111,31 +111,33 @@ async def repo(client, m: Message):
 🛠 MENU BANTUAN
 
 ⚡ PERINTAH UNTUK SEMUA ORANG
-• `/play [judul lagu | link youtube | balas file audio]` - untuk memutar lagu
-• `/vplay [judul video | link youtube | balas file video]` - untuk memutar video
-• `/playlist` untuk melihat daftar putar
-• `/ping` - untuk cek status
-• `/help` - untuk melihat daftar perintah
+• `{HNDLR}play [judul lagu | link youtube | balas file audio]` - untuk memutar lagu
+• `{HNDLR}vplay [judul video | link youtube | balas file video]` - untuk memutar video
+• `{HNDLR}playlist` untuk melihat daftar putar
+• `{HNDLR}ping` - untuk cek status
+• `{HNDLR}help` - untuk melihat daftar perintah
 
 ⚡ PERINTAH UNTUK SEMUA ADMIN
-• `/resume` - untuk melanjutkan pemutaran lagu atau video
-• `/pause` - untuk untuk menjeda pemutaran lagu atau video
-• `/skip` - untuk melewati lagu atau video
-• `/end` - untuk mengakhiri pemutaran
+• `{HNDLR}resume` - untuk melanjutkan pemutaran lagu atau video
+• `{HNDLR}pause` - untuk untuk menjeda pemutaran lagu atau video
+• `{HNDLR}skip` - untuk melewati lagu atau video
+• `{HNDLR}end` - untuk mengakhiri pemutaran
 
 🥜 Deployment Userbot
 💜 Heroku
 
- [𝗗𝗘𝗣𝗟𝗢𝗬 𝗞𝗘 𝗛𝗘𝗥𝗢𝗞𝗨](https://heroku.com/deploy?template=https://github.com/ridho17-ind/Skyzo-Player)
+ [𝗗𝗘𝗣𝗟𝗢𝗬 𝗞𝗘 𝗛𝗘𝗥𝗢𝗞𝗨](https://heroku.com/deploy?template=https://github.com/fjgaming212/Userbot-Music)
 
 📚 Variabel Yang Dibutuhkan
 • `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 • `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 • `SESSION` - Sesi String Pyrogram. Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py)
 • `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
+• `HNDLR` - Handler untuk bot mu
 
 
 ❤️‍🔥 KREDIT 
+• [Fariz](https://github.com/fjgaming212)
 • [Skyzo](https://github.com/ridho17-ind)
 • [Tomi](https://github.com/XtomiSN)
 • [Dan](https://github.com/delivrance) Untuk [Pyrogram](https://github.com/pyrogram/pyrogram)
