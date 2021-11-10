@@ -42,6 +42,7 @@
 
 
 ### KREDIT ✨
+- **[Skyzo](https://github.com/ridho17-ind)**
 - **[Tomi](https://github.com/XtomiSN)**
 - **[Group Music Random](https://t.me/GroupMusicRandom)**
 - **[Dan](https://github.com/delivrance) For [Pyrogram](https://github.com/pyrogram/pyrogram)**
