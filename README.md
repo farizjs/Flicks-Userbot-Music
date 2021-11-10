@@ -42,11 +42,7 @@
 
 
 ### KREDIT ✨
-- **[Fariz](https://github.com/fjgaming212)**
-- **[Skyzo](https://github.com/ridho17-ind)**
-- **[Flicks Support](https://t.me/FlicksSupport)**
-- **[Group Music Random](https://t.me/GroupMusicRandom)**
-- **[Gen Support](https://t.me/GenXProject_Info)**
 - **[Tomi](https://github.com/XtomiSN)**
+- **[Group Music Random](https://t.me/GroupMusicRandom)**
 - **[Dan](https://github.com/delivrance) For [Pyrogram](https://github.com/pyrogram/pyrogram)**
 - **[Laky](https://github.com/Laky-64) For [PyTgCalls](https://github.com/pytgcalls/pytgcalls)**
