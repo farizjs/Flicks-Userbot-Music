@@ -37,13 +37,14 @@
 - `API_ID` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 - `API_HASH` - Dapatkan Dari [my.telegram.org](https://my.telegram.org)
 - `SESSION` - Sesi String Pyrogram.Dapatkan String Dari [Sini](https://replit.com/@fjgaming212/StringSession#main.py) Pilih P jangan T
-- `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin
+- `SUDO_USER` - ID Akun Telegram Yang Digunakan Sebagai Admin,pergi ke [@MissRose_Bot](t.me/MissRose_Bot) terus ketik /id
 - `HNDLR` - Handler untuk userbot mu
 
 
 ### KREDIT ✨
 - **[Skyzo](https://github.com/ridho17-ind)**
 - **[Tomi](https://github.com/XtomiSN)**
+- **[FlicksSupport](https://t.me/FlicksSupport)**
 - **[Group Music Random](https://t.me/GroupMusicRandom)**
 - **[Dan](https://github.com/delivrance) For [Pyrogram](https://github.com/pyrogram/pyrogram)**
 - **[Laky](https://github.com/Laky-64) For [PyTgCalls](https://github.com/pytgcalls/pytgcalls)**
