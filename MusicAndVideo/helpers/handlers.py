@@ -33,11 +33,11 @@ async def skip_current_song(chat_id):
                     ),
                 )
             elif type == "Video":
-                if Q == 720:
+                if Q == 480:
                     hm = HighQualityVideo()
-                elif Q == 480:
-                    hm = MediumQualityVideo()
                 elif Q == 360:
+                    hm = MediumQualityVideo()
+                elif Q == 240:
                     hm = LowQualityVideo()
                 await call_py.change_stream(
                     chat_id, AudioVideoPiped(url, HighQualityAudio(), hm)
@@ -76,6 +76,6 @@ async def on_end_handler(_, update: Update):
         else:
             await bot.send_message(
                 chat_id,
-                f"**🎧 Sekarang Memutar** \n[{op[0]}]({op[1]}) | `{op[2]}`",
+                f"**🎵 Sekarang Memutar** \n[{op[0]}]({op[1]}) | `{op[2]}`",
                 disable_web_page_preview=True,
             )
