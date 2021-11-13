@@ -1,3 +1,4 @@
+# Adminlist, seperti /staff di @GroupHelpBot
 from typing import Dict, List, Union
 
 admins: Dict[int, List[int]] = {}
