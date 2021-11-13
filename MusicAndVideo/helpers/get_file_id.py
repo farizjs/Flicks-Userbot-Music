@@ -1,3 +1,4 @@
+# File id used for like BAN_STIKER bot Manager
 from pyrogram.types import Message
 
 
